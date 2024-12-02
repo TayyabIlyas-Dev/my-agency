@@ -102,7 +102,7 @@ const Footer: React.FC = () => {
 
         <div className="flex items-center lg:justify-center">
           <a href="javascript:void(0)" className="text-center w-full">
-            <h1 className="font-extrabold text-white text-4xl">Rednsay</h1>
+            <h1 className="font-extrabold text-white text-4xl">Solv Dev</h1>
           </a>
         </div>
       </div>
