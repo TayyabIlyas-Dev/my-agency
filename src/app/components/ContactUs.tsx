@@ -2,13 +2,13 @@ import React from 'react';
 
 const ContactUs: React.FC = () => {
   return (
-   <div>
+   <div id='contact'>
     <h2 className='text-center pb-10 font-bold text-5xl text-blue-600'>Contact Us</h2>
      <div className="grid sm:grid-cols-2 items-start gap-16 p-4 mx-auto max-w-4xl bg-white font-[sans-serif]">
       <div>
-        <h1 className="text-gray-800 text-3xl font-extrabold">Let's Talk</h1>
+        <h1 className="text-gray-800 text-3xl font-extrabold">Lets Talk</h1>
         <p className="text-sm text-gray-500 mt-4">
-          Have some big idea or brand to develop and need help? Then reach out we'd love to hear about your project and provide help.
+          Have some big idea or brand to develop and need help? Then reach out would love to hear about your project and provide help.
         </p>
 
         <div className="mt-12">

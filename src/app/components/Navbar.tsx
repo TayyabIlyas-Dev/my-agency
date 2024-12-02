@@ -1,12 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
     <header className="flex shadow-md py-4 px-4 sm:px-10 bg-white font-[sans-serif] min-h-[70px] tracking-wide relative z-50">
       <div className="flex flex-wrap items-center justify-between gap-5 w-full">
-        <a href="/">
+        <Link href="/">
           <h1 className='font-extrabold text-2xl'>Rednsay</h1>
-        </a>
+        </Link>
 
         <div
           id="collapseMenu"
@@ -32,24 +33,24 @@ const Navbar = () => {
 
           <ul className="lg:flex gap-x-5 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50">
             <li className="mb-6 hidden max-lg:block">
-              <a href="/">
+              <Link href="/">
                 <img
                   src="https://readymadeui.com/readymadeui.svg"
                   alt="logo"
                   className="w-36"
                 />
-              </a>
+              </Link>
             </li>
             {["Home", "Team", "Feature", "Blog", "About", "Contact"].map((item, index) => (
               <li key={index} className="max-lg:border-b border-gray-300 max-lg:py-3 px-3">
-                <a
+                <Link
                   href={`#${item.toLowerCase()}`}  
                   className={`hover:text-[#007bff] ${
                     item === "Home" ? "text-[#007bff]" : "text-gray-500"
                   } block font-semibold text-[15px]`}
                 >
                   {item}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -80,7 +81,7 @@ const Navbar = () => {
         </div>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
