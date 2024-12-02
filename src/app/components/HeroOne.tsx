@@ -1,5 +1,6 @@
 import React from "react";
 import ReviewComp from "./ReviewComp";
+import Link from "next/link";
 
 const HeroOne: React.FC = () => {
   return (
@@ -50,26 +51,34 @@ const HeroOne: React.FC = () => {
       </div>
 
       <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4 items-center">
-        <img
+    <Link href=''>
+    <img
           src="https://readymadeui.com/google-logo.svg"
           className="w-28 mx-auto"
           alt="google-logo"
         />
+    </Link>
+    <Link href='https://www.facebook.com/vcraker.ilyas'>
         <img
           src="https://readymadeui.com/facebook-logo.svg"
           className="w-28 mx-auto"
           alt="facebook-logo"
         />
+          </Link>
+          <Link href='https://www.linkedin.com/in/tayyab-ilyas-ai-engineer/'>
         <img
           src="https://readymadeui.com/linkedin-logo.svg"
           className="w-28 mx-auto"
           alt="linkedin-logo"
         />
+          </Link>
+          <Link href='/'>
         <img
           src="https://readymadeui.com/pinterest-logo.svg"
           className="w-28 mx-auto"
           alt="pinterest-logo"
         />
+          </Link>
       </div>
     </div>
   );

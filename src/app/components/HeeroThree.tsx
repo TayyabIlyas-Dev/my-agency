@@ -5,7 +5,7 @@ const HeroThree: React.FC = () => {
     <div id="blog" className="font-sans bg-white py-12 px-8 bg-gradient-to-r from-white via-[#E4FE66] to-[#55F5A3]">
       <div className="max-w-7xl max-md:max-w-md mx-auto max-md:text-center">
         <h2 className="text-gray-800 lg:text-6xl md:text-5xl text-3xl font-extrabold lg:!leading-[64px] md:max-w-4xl">
-          The Most Modern Card Platform for Debit
+          The Most Modern Ai Resume Builder Platform for Follwers
         </h2>
         <div className="grid md:grid-cols-2 gap-12 mt-6">
           <div>
@@ -15,12 +15,14 @@ const HeroThree: React.FC = () => {
               development.
             </p>
             <div className="mt-12 flex gap-4 items-center flex-wrap max-md:justify-center">
+              <a href="https://makecv-for-me.vercel.app/">
               <button
                 type="button"
                 className="bg-[#55F5A3] hover:bg-green-400 transition-all text-gray-800 font-bold text-sm rounded-full px-6 py-3"
               >
-                Getting Started
+                Build Resume
               </button>
+              </a>
               <a
                 href="javascript:void(0)"
                 className="text-gray-800 text-sm font-bold underline max-sm:block whitespace-nowrap"

@@ -1,6 +1,9 @@
 import React from "react";
 
 const Footer: React.FC = () => {
+
+    const facebook:string= 'https://www.facebook.com/vcraker.ilyas'
+    const linkdin:string= 'https://www.linkedin.com/in/tayyab-ilyas-ai-engineer/'
   return (
     <footer className="bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 py-14 px-16 font-sans tracking-wide relative">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -112,7 +115,7 @@ const Footer: React.FC = () => {
       <div className="flex sm:justify-between flex-wrap gap-6 text-center sm:text-left">
         <div className="flex justify-center sm:justify-start space-x-5">
           <a
-            href="javascript:void(0)"
+            href={facebook}
             className="text-gray-300 hover:text-white text-sm transition-all"
           >
             <svg
@@ -139,7 +142,7 @@ const Footer: React.FC = () => {
             </svg>
           </a>
           <a
-            href="javascript:void(0)"
+            href={linkdin}
             className="text-gray-300 hover:text-white text-sm transition-all"
           >
             <svg
